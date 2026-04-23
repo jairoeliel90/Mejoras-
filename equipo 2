@@ -1,1 +1,31 @@
+#include <iostream>
+using namespace std;
+// lo subió el profe jairo equipo git no está en la jugada
+int main() {
+    int num1, num2, num3, r;
 
+    cout << "Introduce el primer numero: ";
+    cin >> num1;
+
+    cout << "Introduce el segundo numero: ";
+    cin >> num2;
+
+    cout << "Introduce el tercer numero: ";
+    cin >> num3;
+
+    r = num1 - num2 - num3;
+
+    cout << "El resultado es: " << r << endl;
+
+    if (r > 0) {
+        cout << "El resultado es un numero positivo" << endl;
+    }
+    else if (r < 0) {
+        cout << "El resultado es un numero negativo" << endl;
+    }
+    else {
+        cout << "El resultado es cero" << endl;
+    }
+
+    return 0;
+}
